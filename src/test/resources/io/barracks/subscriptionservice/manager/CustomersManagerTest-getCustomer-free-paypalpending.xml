@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ MIT License
+  ~
+  ~ Copyright (c) 2017 Barracks Inc.
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all
+  ~ copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  ~ SOFTWARE.
+  -->
+
+<customers>
+    <customer id="37e17781-501c-11e6-a93d-005056a548e6" code="579225dce4b002881c68b966">
+        <firstName>Abc</firstName>
+        <lastName>DEF</lastName>
+        <company/>
+        <email>test@gmail.com</email>
+        <notes/>
+        <gatewayToken/>
+        <isVatExempt>0</isVatExempt>
+        <vatNumber/>
+        <firstContactDatetime/>
+        <referer/>
+        <refererHost/>
+        <campaignSource/>
+        <campaignMedium/>
+        <campaignTerm/>
+        <campaignContent/>
+        <campaignName/>
+        <key>11be9a4953</key>
+        <createdDatetime>2016-07-22T14:54:40+00:00</createdDatetime>
+        <modifiedDatetime>2016-07-22T14:54:40+00:00</modifiedDatetime>
+        <metaData/>
+        <subscriptions>
+            <subscription id="37e5ad89-501c-11e6-a93d-005056a548e6">
+                <plans>
+                    <plan id="464482f9-4d31-11e6-a93d-005056a548e6" code="FREE">
+                        <name>Free</name>
+                        <displayName>Free</displayName>
+                        <description/>
+                        <isActive>1</isActive>
+                        <isFree>1</isFree>
+                        <paymentMethodIsRequired>0</paymentMethodIsRequired>
+                        <trialDays>0</trialDays>
+                        <initialBillCount>1</initialBillCount>
+                        <initialBillCountUnit>months</initialBillCountUnit>
+                        <initialInvoiceBillingDatetime>2016-08-22T15:41:16+00:00</initialInvoiceBillingDatetime>
+                        <billingFrequency>monthly</billingFrequency>
+                        <billingFrequencyPer>month</billingFrequencyPer>
+                        <billingFrequencyUnit>months</billingFrequencyUnit>
+                        <billingFrequencyQuantity>1</billingFrequencyQuantity>
+                        <nextInvoiceBillingDatetime>2016-09-22T15:41:16+00:00</nextInvoiceBillingDatetime>
+                        <setupChargeCode/>
+                        <setupChargeAmount>0.00</setupChargeAmount>
+                        <recurringChargeCode>FREE_RECURRING</recurringChargeCode>
+                        <recurringChargeAmount>0.00</recurringChargeAmount>
+                        <onChangeInitialBillHandler>next</onChangeInitialBillHandler>
+                        <setupChargeBillHandler>now</setupChargeBillHandler>
+                        <onChangeSetupChargeBillHandler>no</onChangeSetupChargeBillHandler>
+                        <createdDatetime>2016-07-18T21:47:50+00:00</createdDatetime>
+                        <items>
+                            <item id="676fc573-4deb-11e6-a93d-005056a548e6" code="POKE_BALL">
+                                <name>PokeBalls</name>
+                                <quantityIncluded>10</quantityIncluded>
+                                <isPeriodic>1</isPeriodic>
+                                <overageAmount>0.00</overageAmount>
+                                <createdDatetime>2016-07-19T20:00:12+00:00</createdDatetime>
+                            </item>
+                        </items>
+                    </plan>
+                </plans>
+                <gatewayToken>SIMULATED-579233b0e8fe9</gatewayToken>
+                <gatewayAccount>
+                    <id>372698bb-4f52-11e6-a93d-005056a548e6</id>
+                    <gateway>PayPal_Simulator</gateway>
+                    <type>paypal</type>
+                </gatewayAccount>
+                <redirectUrl>
+                    https://cheddargetter.com/service/paypal/simulate/productId/3ebc9fde-4d31-11e6-a93d-005056a548e6/id/37e17781-501c-11e6-a93d-005056a548e6?preapprovalkey=SIMULATED-579233b0e8fe9
+                </redirectUrl>
+                <ccFirstName>Abc</ccFirstName>
+                <ccLastName>DEF</ccLastName>
+                <ccCompany/>
+                <ccCountry/>
+                <ccAddress/>
+                <ccCity/>
+                <ccState/>
+                <ccZip/>
+                <ccType/>
+                <ccLastFour/>
+                <ccExpirationDate/>
+                <ccEmail/>
+                <cancelType>paypal-wait</cancelType>
+                <cancelReason>PayPal preapproval is pending</cancelReason>
+                <canceledDatetime>2016-07-22T14:54:40+00:00</canceledDatetime>
+                <createdDatetime>2016-07-22T14:54:40+00:00</createdDatetime>
+                <items>
+                    <item id="676fc573-4deb-11e6-a93d-005056a548e6" code="POKE_BALL">
+                        <name>PokeBalls</name>
+                        <quantity>0</quantity>
+                    </item>
+                </items>
+                <invoices>
+                    <invoice id="37efe8ec-501c-11e6-a93d-005056a548e6">
+                        <number>8</number>
+                        <type>subscription</type>
+                        <vatRate/>
+                        <billingDatetime>2016-08-22T14:54:40+00:00</billingDatetime>
+                        <paidTransactionId/>
+                        <createdDatetime>2016-07-22T14:54:40+00:00</createdDatetime>
+                        <charges>
+                            <charge id="" code="FREE_RECURRING">
+                                <type>recurring</type>
+                                <quantity>1</quantity>
+                                <eachAmount>0.00</eachAmount>
+                                <description/>
+                                <createdDatetime>2016-08-22T14:54:40+00:00</createdDatetime>
+                            </charge>
+                        </charges>
+                    </invoice>
+                </invoices>
+            </subscription>
+        </subscriptions>
+    </customer>
+</customers>

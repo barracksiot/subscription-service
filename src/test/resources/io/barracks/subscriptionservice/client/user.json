@@ -1,0 +1,8 @@
+{
+  "id": "deadbeef",
+  "firstName": "TestFirst",
+  "lastName": "TestLast",
+  "email": "test@barracks.io",
+  "company": "Barracks",
+  "phone": "+123456789"
+}

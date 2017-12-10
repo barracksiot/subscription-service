@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ MIT License
+  ~
+  ~ Copyright (c) 2017 Barracks Inc.
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all
+  ~ copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  ~ SOFTWARE.
+  -->
+
+<plans>
+    <plan id="86d762c3-4910-11e6-a93d-005056a548e6" code="DEVELOPER">
+        <name>Developer</name>
+        <displayName>Developer</displayName>
+        <description>Complete access
+            Documentation
+            Open Source SDK
+            Online Support</description>
+        <isActive>1</isActive>
+        <isFree>1</isFree>
+        <paymentMethodIsRequired>0</paymentMethodIsRequired>
+        <trialDays>0</trialDays>
+        <initialBillCount>1</initialBillCount>
+        <initialBillCountUnit>months</initialBillCountUnit>
+        <initialInvoiceBillingDatetime>2016-08-19T13:31:48+00:00</initialInvoiceBillingDatetime>
+        <billingFrequency>monthly</billingFrequency>
+        <billingFrequencyPer>month</billingFrequencyPer>
+        <billingFrequencyUnit>months</billingFrequencyUnit>
+        <billingFrequencyQuantity>1</billingFrequencyQuantity>
+        <nextInvoiceBillingDatetime>2016-09-19T13:31:48+00:00</nextInvoiceBillingDatetime>
+        <setupChargeCode/>
+        <setupChargeAmount>0.00</setupChargeAmount>
+        <recurringChargeCode>DEVELOPER_RECURRING</recurringChargeCode>
+        <recurringChargeAmount>0.00</recurringChargeAmount>
+        <onChangeInitialBillHandler>next</onChangeInitialBillHandler>
+        <setupChargeBillHandler>now</setupChargeBillHandler>
+        <onChangeSetupChargeBillHandler>no</onChangeSetupChargeBillHandler>
+        <createdDatetime>2016-07-13T15:43:21+00:00</createdDatetime>
+        <items>
+            <item id="4941f988-4921-11e6-a93d-005056a548e6" code="COMPLETE_ACCESS">
+                <name>Complete Access</name>
+                <quantityIncluded>1</quantityIncluded>
+                <isPeriodic>0</isPeriodic>
+                <overageAmount>0.00</overageAmount>
+                <createdDatetime>2016-07-13T17:43:19+00:00</createdDatetime>
+            </item>
+            <item id="51ef7f0e-4921-11e6-a93d-005056a548e6" code="DOCUMENTATION">
+                <name>Documentation</name>
+                <quantityIncluded>1</quantityIncluded>
+                <isPeriodic>0</isPeriodic>
+                <overageAmount>0.00</overageAmount>
+                <createdDatetime>2016-07-13T17:43:33+00:00</createdDatetime>
+            </item>
+            <item id="690f4e7c-4921-11e6-a93d-005056a548e6" code="OPEN_SOURCE_SDK">
+                <name>Open Source SDK</name>
+                <quantityIncluded>1</quantityIncluded>
+                <isPeriodic>0</isPeriodic>
+                <overageAmount>0.00</overageAmount>
+                <createdDatetime>2016-07-13T17:44:12+00:00</createdDatetime>
+            </item>
+            <item id="762632b0-4921-11e6-a93d-005056a548e6" code="ONLINE_SUPPORT">
+                <name>Online Support</name>
+                <quantityIncluded>1</quantityIncluded>
+                <isPeriodic>0</isPeriodic>
+                <overageAmount>0.00</overageAmount>
+                <createdDatetime>2016-07-13T17:44:34+00:00</createdDatetime>
+            </item>
+            <item id="93498297-4921-11e6-a93d-005056a548e6" code="DEDICATED_SUPPORT">
+                <name>Dedicated Support</name>
+                <quantityIncluded>0</quantityIncluded>
+                <isPeriodic>0</isPeriodic>
+                <overageAmount>0.00</overageAmount>
+                <createdDatetime>2016-07-13T17:45:23+00:00</createdDatetime>
+            </item>
+            <item id="b33c3bdf-4921-11e6-a93d-005056a548e6" code="SDK_DEV">
+                <name>Custom SDK Development</name>
+                <quantityIncluded>0</quantityIncluded>
+                <isPeriodic>0</isPeriodic>
+                <overageAmount>0.00</overageAmount>
+                <createdDatetime>2016-07-13T17:46:17+00:00</createdDatetime>
+            </item>
+            <item id="ca8e0ae8-478d-11e6-a93d-005056a548e6" code="DEVICES">
+                <name>Devices</name>
+                <quantityIncluded>50</quantityIncluded>
+                <isPeriodic>0</isPeriodic>
+                <overageAmount>0.00</overageAmount>
+                <createdDatetime>2016-07-13T15:43:21+00:00</createdDatetime>
+            </item>
+            <item id="caa6c024-478d-11e6-a93d-005056a548e6" code="GIGS">
+                <name>Gigabytes</name>
+                <quantityIncluded>5</quantityIncluded>
+                <isPeriodic>1</isPeriodic>
+                <overageAmount>0.00</overageAmount>
+                <createdDatetime>2016-07-13T15:43:21+00:00</createdDatetime>
+            </item>
+        </items>
+    </plan>
+</plans>

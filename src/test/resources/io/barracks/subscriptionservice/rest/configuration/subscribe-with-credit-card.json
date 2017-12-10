@@ -1,0 +1,16 @@
+{
+  "plan": "FREE",
+  "paymentDetails": {
+    "firstName": "Abc",
+    "lastName": "DEF",
+    "company": "Barracks",
+    "country": "CA",
+    "address": "42 rue Ouest",
+    "city": "Montréal",
+    "zip": "H1H1H1",
+    "state": "QC",
+    "number": "5424000000000015",
+    "code": "999",
+    "expiration": "12/2012"
+  }
+}

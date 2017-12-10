@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ MIT License
+  ~
+  ~ Copyright (c) 2017 Barracks Inc.
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all
+  ~ copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  ~ SOFTWARE.
+  -->
+
+<customers>
+    <customer id="b87761f0-4ade-11e6-a93d-005056a548e6" code="test@gmail.com">
+        <firstName>Abc</firstName>
+        <lastName>DEF</lastName>
+        <company/>
+        <email>test@gmail.com</email>
+        <notes/>
+        <gatewayToken/>
+        <isVatExempt>1</isVatExempt>
+        <vatNumber/>
+        <firstContactDatetime/>
+        <referer/>
+        <refererHost/>
+        <campaignSource/>
+        <campaignMedium/>
+        <campaignTerm/>
+        <campaignContent/>
+        <campaignName/>
+        <key>fc28c21cca</key>
+        <createdDatetime>2016-07-15T22:51:51+00:00</createdDatetime>
+        <modifiedDatetime>2016-07-15T22:51:52+00:00</modifiedDatetime>
+        <metaData/>
+        <subscriptions>
+            <subscription id="b8826176-4ade-11e6-a93d-005056a548e6">
+                <plans>
+                    <plan id="11621aec-491d-11e6-a93d-005056a548e6" code="STARTER">
+                        <name>Starter</name>
+                        <displayName>Starter • 100.00 / Month</displayName>
+                        <description>Complete access
+                            Documentation
+                            Open Source SDK
+                            Dedicated support</description>
+                        <isActive>1</isActive>
+                        <isFree>0</isFree>
+                        <paymentMethodIsRequired>1</paymentMethodIsRequired>
+                        <trialDays>0</trialDays>
+                        <initialBillCount>1</initialBillCount>
+                        <initialBillCountUnit>months</initialBillCountUnit>
+                        <initialInvoiceBillingDatetime>2016-08-19T20:57:48+00:00</initialInvoiceBillingDatetime>
+                        <billingFrequency>monthly</billingFrequency>
+                        <billingFrequencyPer>month</billingFrequencyPer>
+                        <billingFrequencyUnit>months</billingFrequencyUnit>
+                        <billingFrequencyQuantity>1</billingFrequencyQuantity>
+                        <nextInvoiceBillingDatetime>2016-09-19T20:57:48+00:00</nextInvoiceBillingDatetime>
+                        <setupChargeCode/>
+                        <setupChargeAmount>0.00</setupChargeAmount>
+                        <recurringChargeCode>STARTER_RECURRING</recurringChargeCode>
+                        <recurringChargeAmount>100.00</recurringChargeAmount>
+                        <onChangeInitialBillHandler>now</onChangeInitialBillHandler>
+                        <setupChargeBillHandler>now</setupChargeBillHandler>
+                        <onChangeSetupChargeBillHandler>no</onChangeSetupChargeBillHandler>
+                        <createdDatetime>2016-07-13T17:13:07+00:00</createdDatetime>
+                        <items>
+                            <item id="4941f988-4921-11e6-a93d-005056a548e6" code="COMPLETE_ACCESS">
+                                <name>Complete Access</name>
+                                <quantityIncluded>1</quantityIncluded>
+                                <isPeriodic>0</isPeriodic>
+                                <overageAmount>0.00</overageAmount>
+                                <createdDatetime>2016-07-13T17:43:19+00:00</createdDatetime>
+                            </item>
+                            <item id="51ef7f0e-4921-11e6-a93d-005056a548e6" code="DOCUMENTATION">
+                                <name>Documentation</name>
+                                <quantityIncluded>1</quantityIncluded>
+                                <isPeriodic>0</isPeriodic>
+                                <overageAmount>0.00</overageAmount>
+                                <createdDatetime>2016-07-13T17:43:33+00:00</createdDatetime>
+                            </item>
+                            <item id="690f4e7c-4921-11e6-a93d-005056a548e6" code="OPEN_SOURCE_SDK">
+                                <name>Open Source SDK</name>
+                                <quantityIncluded>1</quantityIncluded>
+                                <isPeriodic>0</isPeriodic>
+                                <overageAmount>0.00</overageAmount>
+                                <createdDatetime>2016-07-13T17:44:12+00:00</createdDatetime>
+                            </item>
+                            <item id="762632b0-4921-11e6-a93d-005056a548e6" code="ONLINE_SUPPORT">
+                                <name>Online Support</name>
+                                <quantityIncluded>1</quantityIncluded>
+                                <isPeriodic>0</isPeriodic>
+                                <overageAmount>0.00</overageAmount>
+                                <createdDatetime>2016-07-13T17:44:34+00:00</createdDatetime>
+                            </item>
+                            <item id="93498297-4921-11e6-a93d-005056a548e6" code="DEDICATED_SUPPORT">
+                                <name>Dedicated Support</name>
+                                <quantityIncluded>0</quantityIncluded>
+                                <isPeriodic>0</isPeriodic>
+                                <overageAmount>0.00</overageAmount>
+                                <createdDatetime>2016-07-13T17:45:23+00:00</createdDatetime>
+                            </item>
+                            <item id="b33c3bdf-4921-11e6-a93d-005056a548e6" code="SDK_DEV">
+                                <name>Custom SDK Development</name>
+                                <quantityIncluded>0</quantityIncluded>
+                                <isPeriodic>0</isPeriodic>
+                                <overageAmount>0.00</overageAmount>
+                                <createdDatetime>2016-07-13T17:46:17+00:00</createdDatetime>
+                            </item>
+                            <item id="ca8e0ae8-478d-11e6-a93d-005056a548e6" code="DEVICES">
+                                <name>Devices</name>
+                                <quantityIncluded>10000</quantityIncluded>
+                                <isPeriodic>0</isPeriodic>
+                                <overageAmount>0.00</overageAmount>
+                                <createdDatetime>2016-07-13T17:13:07+00:00</createdDatetime>
+                            </item>
+                            <item id="caa6c024-478d-11e6-a93d-005056a548e6" code="GIGS">
+                                <name>Gigabytes</name>
+                                <quantityIncluded>100</quantityIncluded>
+                                <isPeriodic>1</isPeriodic>
+                                <overageAmount>0.00</overageAmount>
+                                <createdDatetime>2016-07-13T17:13:07+00:00</createdDatetime>
+                            </item>
+                        </items>
+                    </plan>
+                </plans>
+                <gatewayToken>PA-90N06971UN6581012</gatewayToken>
+                <gatewayAccount>
+                    <id>435dc835-4844-11e6-a93d-005056a548e6</id>
+                    <gateway>PayPal</gateway>
+                    <type>paypal</type>
+                </gatewayAccount>
+                <redirectUrl>https://www.paypal.com/cgi-bin/webscr?cmd=_ap-preapproval&amp;preapprovalkey=PA-90N06971UN6581012</redirectUrl>
+                <ccFirstName>Abc</ccFirstName>
+                <ccLastName>DEF</ccLastName>
+                <ccCompany/>
+                <ccCountry/>
+                <ccAddress/>
+                <ccCity/>
+                <ccState/>
+                <ccZip/>
+                <ccType/>
+                <ccLastFour/>
+                <ccExpirationDate/>
+                <ccEmail/>
+                <cancelType>paypal-wait</cancelType>
+                <cancelReason>PayPal preapproval is pending</cancelReason>
+                <canceledDatetime>2016-07-15T22:51:52+00:00</canceledDatetime>
+                <createdDatetime>2016-07-15T22:51:52+00:00</createdDatetime>
+                <items>
+                    <item id="4941f988-4921-11e6-a93d-005056a548e6" code="COMPLETE_ACCESS">
+                        <name>Complete Access</name>
+                        <quantity>0</quantity>
+                    </item>
+                    <item id="93498297-4921-11e6-a93d-005056a548e6" code="DEDICATED_SUPPORT">
+                        <name>Dedicated Support</name>
+                        <quantity>0</quantity>
+                    </item>
+                    <item id="ca8e0ae8-478d-11e6-a93d-005056a548e6" code="DEVICES">
+                        <name>Devices</name>
+                        <quantity>0</quantity>
+                    </item>
+                    <item id="51ef7f0e-4921-11e6-a93d-005056a548e6" code="DOCUMENTATION">
+                        <name>Documentation</name>
+                        <quantity>0</quantity>
+                    </item>
+                    <item id="caa6c024-478d-11e6-a93d-005056a548e6" code="GIGS">
+                        <name>Gigabytes</name>
+                        <quantity>0</quantity>
+                    </item>
+                    <item id="762632b0-4921-11e6-a93d-005056a548e6" code="ONLINE_SUPPORT">
+                        <name>Online Support</name>
+                        <quantity>0</quantity>
+                    </item>
+                    <item id="690f4e7c-4921-11e6-a93d-005056a548e6" code="OPEN_SOURCE_SDK">
+                        <name>Open Source SDK</name>
+                        <quantity>0</quantity>
+                    </item>
+                    <item id="b33c3bdf-4921-11e6-a93d-005056a548e6" code="SDK_DEV">
+                        <name>Custom SDK Development</name>
+                        <quantity>0</quantity>
+                    </item>
+                </items>
+                <invoices>
+                    <invoice id="b8940c9a-4ade-11e6-a93d-005056a548e6">
+                        <number>11</number>
+                        <type>subscription</type>
+                        <vatRate/>
+                        <billingDatetime>2016-08-15T22:51:52+00:00</billingDatetime>
+                        <paidTransactionId/>
+                        <createdDatetime>2016-07-15T22:51:52+00:00</createdDatetime>
+                        <charges>
+                            <charge id="" code="STARTER_RECURRING">
+                                <type>recurring</type>
+                                <quantity>1</quantity>
+                                <eachAmount>100.00</eachAmount>
+                                <description/>
+                                <createdDatetime>2016-08-15T22:51:52+00:00</createdDatetime>
+                            </charge>
+                        </charges>
+                    </invoice>
+                </invoices>
+            </subscription>
+        </subscriptions>
+    </customer>
+</customers>

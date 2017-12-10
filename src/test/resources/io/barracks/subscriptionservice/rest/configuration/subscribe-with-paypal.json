@@ -1,0 +1,7 @@
+{
+  "plan": "FREE",
+  "paymentDetails": {
+    "returnUrl": "http://not.barracks.io/success",
+    "cancelUrl": "http://not.barracks.io/cancel"
+  }
+}
